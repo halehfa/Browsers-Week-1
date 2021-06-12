@@ -20,13 +20,15 @@
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
 
-let image = document.querySelector('IMG');
+let image = document.querySelector('img');
 image.style.left = '0px';
 let imageLeftValue = parseInt(image.style.left);
 
 let windowSize = parseFloat(window.innerWidth - image.width);
-let middle = parseInt(window.innerWidth / 2);
+let middle = parseInt(windowSize / 2);
 middle = parseInt(middle/10) * 10
+console.log(middle);
+console.log(windowSize);
 
 function catWalk() {
 
