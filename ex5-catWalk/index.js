@@ -20,7 +20,7 @@
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
 
-let image = document.querySelector('img');
+let image = document.querySelector('IMG');
 image.style.left = '0px';
 let imageLeftValue = parseInt(image.style.left);
 
