@@ -27,7 +27,6 @@ let imageLeftValue = parseInt(image.style.left);
 let windowSize = parseFloat(window.innerWidth - image.width);
 let middle = parseInt(windowSize / 2);
 middle = parseInt(middle/10) * 10
-console.log(middle);
 
 function catWalk() {
 
@@ -50,4 +49,4 @@ function catWalk() {
     }
 
 } 
-let moveTheCat = setInterval(catWalk, 50 );
+//let moveTheCat = setInterval(catWalk, 50 );
