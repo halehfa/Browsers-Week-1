@@ -49,4 +49,4 @@ function catWalk() {
     }
 
 } 
-//let moveTheCat = setInterval(catWalk, 50 );
+let moveTheCat = setInterval(catWalk, 50 );
