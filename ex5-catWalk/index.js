@@ -25,7 +25,7 @@ image.style.left = '0px';
 let imageLeftValue = parseInt(image.style.left);
 
 let windowSize = parseFloat(window.innerWidth - image.width);
-let middle = parseInt(windowSize / 2);
+let middle = parseInt(window.innerWidth / 2);
 middle = parseInt(middle/10) * 10
 
 function catWalk() {
